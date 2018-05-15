@@ -18,7 +18,7 @@ This is a Portfolio of Julia JY Shin created bottom up with pure code.
 * CSS
 * Javascript
 * HTML
-* Node.js.
+* Node.js
 
 ## Author
 * Julia Shin
