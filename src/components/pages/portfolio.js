@@ -18,7 +18,6 @@ class Portfolio extends Component {
                 </div>
                 {/* Portfolio Links  */}
                 <div className="container">
-
                     <div className="col-lg-12 text-center">
                         {/* ROW START  */}
                         <div className="row">
@@ -56,16 +55,16 @@ class Portfolio extends Component {
                                                 InstaDiary
                                             </div>
                                             <div class="project-name">
-                                                A travel diary to record and share travel itineraries.
+                                                A travel diary to record and share travel itineraries. Please see github for instructions.
                                             </div>
                                             <div class="project-name">
-                                                <strong>Tech Used:</strong> HTML, Bootstrap, CSS, jQuery, Javascript, API, Momentjs, AJAX,
-                                                Firebase, & Nodejs.
+                                                <strong>Tech Used:</strong> HTML, Bootstrap, CSS, jQuery, Javascript, API, Momentjs, AJAX, Firebase, & Nodejs.
                                             </div>
                                             <div class="project-links">
                                                 <strong>
-                                                    <a class='text-white' href='https://afternoon-tor-25292.herokuapp.com/' target='_blank'>Live</a> |
-                                                <a class='text-white' href='https://github.com/juliajyshin/InstaDiary/' target='_blank'>GitHub</a>
+                                                <a class='text-white' href='https://github.com/juliajyshin/InstaDiary/' target='_blank'>GitHub</a> 
+                                                |
+                                                <a class='text-white' href='https://afternoon-tor-25292.herokuapp.com/' target='_blank'>Live</a>                                             
                                                 </strong>
                                             </div>
                                         </div>
@@ -86,25 +85,22 @@ class Portfolio extends Component {
                                             </div>
                                             <div class="project-name">
                                             <strong>Tech Used:</strong> HTML, CSS, Javascript.
-                                        
                                             </div>
                                             <div class="project-links">
-                                        <strong>
-                                            <a class='text-white' href='https://juliajyshin.github.io/Pokemon-Hangman/' target='_blank'>Live</a> |
-                                            <a class='text-white' href='https://github.com/juliajyshin/Pokemon-Hangman' target='_blank'>GitHub</a>
-                                        </strong>
+                                            <strong>
+                                                <a class='text-white' href='https://github.com/juliajyshin/Pokemon-Hangman' target='_blank'>GitHub</a>
+                                                |
+                                                <a class='text-white' href='https://juliajyshin.github.io/Pokemon-Hangman/' target='_blank'>Live</a>
+                                            </strong>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                              {/* ROW END */}
-
                         </div>
-                       
-                        {/* ROW START  */}
+                        {/* ROW START */}
                         <div className="row">
-                            {/* CRYSTAL COLLECTOR  */}
+                            {/* CRYSTAL COLLECTOR */}
                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className='portfolio-box'>
                                     <img className="img-fluid" src={'https://raw.githubusercontent.com/juliajyshin/Crystals-Collector-Game/master/assets/images/crystals-game.png'} />
@@ -118,13 +114,13 @@ class Portfolio extends Component {
                                             </div>
                                             <div class="project-name">
                                             <strong>Tech Used:</strong> HTML, CSS, Javascript.
-                                        
                                             </div>
                                             <div class="project-links">
                                             <strong>
-                                            <a class='text-white' href='https://juliajyshin.github.io/Crystals-Collector-Game/' target='_blank'>Live</a> |
                                             <a class='text-white' href='https://github.com/juliajyshin/Crystals-Collector-Game' target='_blank'>GitHub</a>
-                                        </strong>
+                                            |
+                                            <a class='text-white' href='https://juliajyshin.github.io/Crystals-Collector-Game/' target='_blank'>Live</a>
+                                            </strong>
                                             </div>
                                         </div>
                                     </div>
@@ -140,23 +136,23 @@ class Portfolio extends Component {
                                             Train Scheduler
                                             </div>
                                             <div class="project-name">
-                                        A Train Schedule Application using Firebase
-                                    </div>
-                                    <div class="project-name">
-                                        <strong>Tech Used:</strong> HTML, CSS, Javascript, jQuery, Firebase, Momentjs.
-                                        
+                                            A Train Schedule Application using Firebase
+                                            </div>
+                                            <div class="project-name">
+                                            <strong>Tech Used:</strong> HTML, CSS, Javascript, jQuery, Firebase, Momentjs.
                                             </div>
                                             <div class="project-links">
-                                        <strong>
-                                            <a class='text-white' href='https://juliajyshin.github.io/Train-Scheduler-Firebase/' target='_blank'>Live</a> |
+                                            <strong>
                                             <a class='text-white' href='https://github.com/juliajyshin/Train-Scheduler-Firebase' target='_blank'>GitHub</a>
-                                        </strong>
+                                            |
+                                            <a class='text-white' href='https://juliajyshin.github.io/Train-Scheduler-Firebase/' target='_blank'>Live</a>                                          
+                                            </strong>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            {/* FOOD GIPHY  */}
+                            {/* FOOD GIPHY */}
                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className='portfolio-box'>
                                     <img className="img-fluid" src={'https://raw.githubusercontent.com/juliajyshin/Food-Ajax-Giphy/master/assets/images/giphy-app.png'} />
@@ -166,30 +162,28 @@ class Portfolio extends Component {
                                             Food Giphy
                                             </div>
                                             <div class="project-name">
-                                        Webpage that populates favorite food gifs with AJAX calls from GIPHY
-                                    </div>
+                                            Webpage that populates favorite food gifs with AJAX calls from GIPHY
+                                            </div>
                                             <div class="project-name">
                                             <strong>Tech Used:</strong> HTML, CSS, Javascript, jQuery, API, AJAX.
-                                        
                                             </div>
                                             <div class="project-links">
                                             <strong>
-                                            <a class='text-white' href='https://juliajyshin.github.io/Food-Ajax-Giphy/' target='_blank'>Live</a> |
                                             <a class='text-white' href='https://github.com/juliajyshin/Food-Ajax-Giphy' target='_blank'>GitHub</a>
-                                        </strong>
+                                            |
+                                            <a class='text-white' href='https://juliajyshin.github.io/Food-Ajax-Giphy/' target='_blank'>Live</a>
+                                            </strong>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        {/* ROW END */}
-                    </div>
-                    {/* ROW START  */}
-                    <div className="row">
-                              {/* FRIENDS TRIVIA */}
-                              <div className="col-lg-4 col-md-6 col-sm-6">
-                                <div className='portfolio-box'>
+                        {/* ROW START  */}
+                        <div className="row">
+                            {/* FRIENDS TRIVIA */}
+                            <div className="col-lg-4 col-md-6 col-sm-6">
+                                 <div className='portfolio-box'>
                                     <img className="img-fluid" src={'https://raw.githubusercontent.com/juliajyshin/TriviaGame/master/assets/img/trivia.png'} />
                                     <div className="portfolio-box-caption">
                                         <div className="portfolio-box-caption-content">
@@ -200,74 +194,74 @@ class Portfolio extends Component {
                                             F.R.I.E.N.D.S. Trivia Game with JavaScript Timers
                                             </div>
                                             <div class="project-name">
-                                                <strong>Tech Used:</strong> HTML, CSS, Javascript, jQuery.
+                                            <strong>Tech Used:</strong> HTML, CSS, Javascript, jQuery.
                                             </div>
                                             <div class="project-links">
                                             <strong>
-                                            <a class='text-white' href='https://juliajyshin.github.io/TriviaGame/' target='_blank'>Live</a> |
                                             <a class='text-white' href='https://github.com/juliajyshin/TriviaGame' target='_blank'>GitHub</a>
-                                        </strong>
+                                            |
+                                            <a class='text-white' href='https://juliajyshin.github.io/TriviaGame/' target='_blank'>Live</a>
+                                            </strong>
+                                            </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            {/* POKEMON HANGMAN 
+                            {/* NEW */}
                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className='portfolio-box'>
-                                    <img className="img-fluid" src={'https://raw.githubusercontent.com/juliajyshin/Pokemon-Hangman/master/assets/images/hangman.png'} />
+                                <img className="img-fluid" src={'http://i68.tinypic.com/24chcmc.jpg'} />
                                     <div className="portfolio-box-caption">
                                         <div className="portfolio-box-caption-content">
                                             <div className="project-category">
-                                            Pokemon Hangman
+                                            Site Title
                                             </div>
                                             <div class="project-name">
-                                            A simple game of hangman feature our favorite Pokemon.
+                                            A short description of project.
                                             </div>
                                             <div class="project-name">
                                             <strong>Tech Used:</strong> HTML, CSS, Javascript.
-                                        
                                             </div>
                                             <div class="project-links">
-                                        <strong>
-                                            <a class='text-white' href='https://juliajyshin.github.io/Pokemon-Hangman/' target='_blank'>Live</a> |
-                                            <a class='text-white' href='https://github.com/juliajyshin/Pokemon-Hangman' target='_blank'>GitHub</a>
-                                        </strong>
+                                            <strong>
+                                            <a class='text-white' href='/' target='_blank'>GitHub</a>
+                                            |
+                                            <a class='text-white' href='/' target='_blank'>Live</a>
+                                            </strong>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            {/* CRYSTAL COLLECTOR  */}
-                            {/* <div className="col-lg-4 col-md-6 col-sm-6">
+                            {/* NEW */}
+                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className='portfolio-box'>
-                                    <img className="img-fluid" src={'https://raw.githubusercontent.com/juliajyshin/Crystals-Collector-Game/master/assets/images/crystals-game.png'} />
+                                <img className="img-fluid" src={'http://i68.tinypic.com/24chcmc.jpg'} />
                                     <div className="portfolio-box-caption">
                                         <div className="portfolio-box-caption-content">
                                             <div className="project-category">
-                                            Crystals Collector
+                                            Site Title
                                             </div>
                                             <div class="project-name">
-                                            A fun and interactive number guessing game.
+                                            A short description of project.
                                             </div>
                                             <div class="project-name">
                                             <strong>Tech Used:</strong> HTML, CSS, Javascript.
-                                        
                                             </div>
                                             <div class="project-links">
                                             <strong>
-                                            <a class='text-white' href='https://juliajyshin.github.io/Crystals-Collector-Game/' target='_blank'>Live</a> |
-                                            <a class='text-white' href='https://github.com/juliajyshin/Crystals-Collector-Game' target='_blank'>GitHub</a>
-                                        </strong>
+                                            <a class='text-white' href='/' target='_blank'>GitHub</a>
+                                            |
+                                            <a class='text-white' href='/' target='_blank'>Live</a>
+                                            </strong>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>  */}
-                              {/* ROW END */}
-
+                            </div>
+                            {/* ROW END */}
                         </div>
-                       
+                    </div>
                 </div>
             </div>
         );
