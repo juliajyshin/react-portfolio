@@ -1,8 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
-
 # Portfolio
 
 Click Here to Visit my Website: [http://www.juliajyshin.com/](http://www.juliajyshin.com/)
+
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 ## Project Description
 
