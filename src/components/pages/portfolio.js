@@ -207,24 +207,24 @@ class Portfolio extends Component {
                                         </div>
                                     </div>
                                 </div>
-                            {/* NEW */}
+                            {/* BURGER APP */}
                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className='portfolio-box'>
-                                <img className="img-fluid" src={'http://i68.tinypic.com/24chcmc.jpg'} />
+                                <img className="img-fluid" src={'https://github.com/juliajyshin/burger/blob/master/public/assets/img/burger-app.png?raw=true'} />
                                     <div className="portfolio-box-caption">
                                         <div className="portfolio-box-caption-content">
                                             <div className="project-category">
-                                            Site Title
+                                            Burger Log App
                                             </div>
                                             <div class="project-name">
-                                            A short description of project.
+                                            A burger logger with MYSQL, Node, Express, Handlebars, & ORM. (yum!)
                                             </div>
                                             <div class="project-name">
                                             <strong>Tech Used:</strong> HTML, CSS, Javascript.
                                             </div>
                                             <div class="project-links">
                                             <strong>
-                                            <a class='text-white' href='/' target='_blank'>GitHub</a>
+                                            <a class='text-white' href='https://github.com/juliajyshin/burger' target='_blank'>GitHub</a>
                                             |
                                             <a class='text-white' href='/' target='_blank'>Live</a>
                                             </strong>
