@@ -17,18 +17,52 @@ class About extends Component {
                                 </h3>
                             </div>
                             <div className="col-lg-4 profile-image">
-                                <img src={'https://github.com/juliajyshin/images/blob/master/react-portfolio/profile.jpg?raw=true'} />
+                                <img src={'http://jverie.com/wp-content/uploads/2018/06/portfolio-img.png'} />
                             </div>
                         </div>
                     </div>
                     <hr></hr>
                     {/* Skills Lists */}
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <h4>Full Stack Web Dev Skills</h4>
+                    <div className="container container-skills">
+                        <div className="row">
+                            <div className="col-lg-4">
+                                <div className="charts">
+                                    <div className="chart chart--dev">
+                                        <span className="chart__title">Development Skills</span>
+                                        <ul className="chart--horiz">
+                                            <li className="chart__bar">
+                                                <span class="chart__label">HTML5</span>
+                                            </li>
+                                            <li className="chart__bar">
+                                                <span class="chart__label">CSS3 / SCSS</span>
+                                            </li>
+                                            <li className="chart__bar">
+                                                <span class="chart__label">Javascript</span>
+                                            </li>
+                                            <li className="chart__bar">
+                                                <span class="chart__label">jQuery</span>
+                                            </li>
+                                            <li className="chart__bar">
+                                                <span class="chart__label">mongoDB</span>
+                                            </li>
+                                            <li className="chart__bar">
+                                                <span class="chart__label">React.js</span>
+                                            </li>
+                                            <li className="chart__bar">
+                                                <span class="chart__label">Bootstrap</span>
+                                            </li>
+                                            <li className="chart__bar">
+                                                <span class="chart__label">NodeJS</span>
+                                            </li>
+                                            <li className="chart__bar">
+                                                <span class="chart__label">Gulp</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                {/* <h4>Full Stack Web Dev Skills</h4>
                                 <br></br>
-                                <ul class="about">
+                                <ul className="about">
                                     <li>HTML5</li>
                                     <li>CSS3</li>
                                     <li>Javascript</li>
@@ -37,24 +71,80 @@ class About extends Component {
                                     <li>React.js</li>
                                     <li>Bootstrap</li>
                                     <li>NodeJS</li>
-                                </ul>
+                                </ul> */}
                             </div>
-                            <div class="col-lg-4">
-                                <h4>Application Skills</h4>
+                            <div className="col-lg-4">
+                                <div className="charts">
+                                    <div className="chart chart--dev">
+                                        <span className="chart__title">Application Skills</span>
+                                        <ul className="chart--horiz">
+                                            <li className="chart__bar">
+                                                <span class="chart__label">Adobe Photoshop</span>
+                                            </li>
+                                            <li className="chart__bar">
+                                                <span class="chart__label">Adobe Illustrator</span>
+                                            </li>
+                                            <li className="chart__bar">
+                                                <span class="chart__label">Adobe Premier Pro</span>
+                                            </li>
+                                            <li className="chart__bar">
+                                                <span class="chart__label">Github</span>
+                                            </li>
+                                            <li className="chart__bar">
+                                                <span class="chart__label">Visual Studio</span>
+                                            </li>
+                                            <li className="chart__bar">
+                                                <span class="chart__label">Slack</span>
+                                            </li>
+                                            <li className="chart__bar">
+                                                <span class="chart__label">Microsoft Office</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                {/* <h4>Application Skills</h4>
                                 <br></br>
-                                <ul class="about">
+                                <ul className="about">
                                     <li>Adobe Photoshop</li>
                                     <li>Adobe Illustrator</li>
                                     <li>Adobe Premier Pro</li>
                                     <li>Microsoft Office: (Word, Excel, Powerpoint)</li>
                                     <li>Quickbooks Accounting Software</li>
                                     <li>Xero Accounting Software</li>
-                                </ul>
+                                </ul> */}
                             </div>
-                            <div class="col-lg-4">
-                                <h4>Other Intriguing Skills</h4>
+                            <div className="col-lg-4">
+                                <div className="charts">
+                                    <div className="chart chart--dev">
+                                        <span className="chart__title">Other Skills</span>
+                                        <ul className="chart--horiz">
+                                            <li className="chart__bar">
+                                                <span class="chart__label">Creative Marketing</span>
+                                            </li>
+                                            <li className="chart__bar">
+                                                <span class="chart__label">Micro-Influencer</span>
+                                            </li>
+                                            <li className="chart__bar">
+                                                <span class="chart__label">Fashion Enthusiast</span>
+                                            </li>
+                                            <li className="chart__bar">
+                                                <span class="chart__label">Yelp Elite</span>
+                                            </li>
+                                            <li className="chart__bar">
+                                                <span class="chart__label">Lifestyle Blogger</span>
+                                            </li>
+                                            <li className="chart__bar">
+                                                <span class="chart__label">OCD Organizer</span>
+                                            </li>
+                                            <li className="chart__bar">
+                                                <span class="chart__label">Animal Whisperer</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    {/* <h4>Other Intriguing Skills</h4>
                                 <br></br>
-                                <ul class="about">
+                                <ul className="about">
                                     <li>Freelance Creative Marketing</li>
                                     <li>Instagram Influencer</li>
                                     <li>Fashion Enthusiast</li>
@@ -62,25 +152,26 @@ class About extends Component {
                                     <li>Lifestyle Blogger</li>
                                     <li>OCD Organizer</li>
                                     <li>Animal Lover</li>
-                                </ul>
+                                </ul> */}
+                                </div>
                             </div>
                         </div>
                     </div>
                     <hr></hr>
                     {/* Education Icons */}
-                    <div class="container" id="edu-section">
-                        <div class="row">
-                            <div class="col-lg-12 text-center">
+                    <div className="container" id="edu-section">
+                        <div className="row">
+                            <div className="col-lg-12 text-center">
                                 <h1>Education</h1>
-                                <hr class="edu-hr"></hr>
+                                <hr className="edu-hr"></hr>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-4 col-12 text-center">
+                        <div className="row">
+                            <div className="col-lg-4 col-12 text-center">
                                 <h3>
                                     UCI Coding Bootcamp
                                 </h3>
-                                <img src={'https://github.com/juliajyshin/images/blob/master/react-portfolio/educoding.JPG?raw=true'} class='edu-icon one' />
+                                <img src={'https://github.com/juliajyshin/images/blob/master/react-portfolio/educoding.JPG?raw=true'} className='edu-icon one' />
 
                                 <p>
                                     Web Developer
@@ -89,11 +180,11 @@ class About extends Component {
                                     2018
                             </p>
                             </div>
-                            <div class="col-lg-4 col-12 text-center">
+                            <div className="col-lg-4 col-12 text-center">
                                 <h3>
                                     Fashion Institute of Design & Merchandising
                         </h3>
-                                <img src={'https://github.com/juliajyshin/images/blob/master/react-portfolio/edufashion.JPG?raw=true'} class='edu-icon two' />
+                                <img src={'https://github.com/juliajyshin/images/blob/master/react-portfolio/edufashion.JPG?raw=true'} className='edu-icon two' />
                                 <p>
                                     Fashion Designer
                         </p>
@@ -101,11 +192,11 @@ class About extends Component {
                                     2011
                         </p>
                             </div>
-                            <div class="col-lg-4 col-12 text-center">
+                            <div className="col-lg-4 col-12 text-center">
                                 <h3>
                                     JFK High School
                         </h3>
-                                <img src={'https://github.com/juliajyshin/images/blob/master/react-portfolio/edustudent.JPG?raw=true'} class='edu-icon three' />
+                                <img src={'https://github.com/juliajyshin/images/blob/master/react-portfolio/edustudent.JPG?raw=true'} className='edu-icon three' />
                                 <p>
                                     Ecstatic Teenager
                         </p>
@@ -118,6 +209,8 @@ class About extends Component {
                     </div>
                 </div>
             </div>
+
+
 
         );
     }
